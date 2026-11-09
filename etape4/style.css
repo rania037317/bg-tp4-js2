@@ -1,0 +1,43 @@
+
+#table_container {
+    font-family: Calibri, Arial, sans-serif; 
+    width: 70%;
+    margin: 40px auto;                       
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #0077b6;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+}
+
+.col_number  { width: 70px; text-align: center; }
+.col_text    { text-align: left; }
+.col_chkbox  { width: 80px; text-align: center; }
+
+#container_summary {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    padding: 8px 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+#container_summary p { margin: 0; }
+#p2 { flex: 1; }

@@ -1,0 +1,62 @@
+/* Etape 1 : mise en forme du tableau */
+#table_container {
+    font-family: Calibri, Arial, sans-serif; /* Calibri comme première police */
+    width: 70%;
+    margin: 40px auto;                       /* conteneur centré */
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #0077b6;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+}
+
+.col_number  { width: 70px; text-align: center; }
+.col_text    { text-align: left; }
+.col_chkbox  { width: 80px; text-align: center; }
+
+/* Etape 4 : espace résumé */
+#container_summary {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    padding: 8px 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+#container_summary p { margin: 0; }
+#p2 { flex: 1; }
+
+/* Etape 5 : formulaire de saisie */
+#form_container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+}
+
+.form_group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+}
+
+.form_label { font-weight: bold; font-size: 13px; }
+.form_field { flex: 1; padding: 4px; border: 1px solid #bbb; min-width: 0; }

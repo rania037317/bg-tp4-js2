@@ -1,0 +1,91 @@
+
+#table_container {
+    font-family: Calibri, Arial, sans-serif; 
+    width: 70%;
+    margin: 40px auto;                       
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #0077b6;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+}
+
+.col_number  { width: 70px; text-align: center; }
+.col_text    { text-align: left; }
+.col_chkbox  { width: 80px; text-align: center; }
+
+#container_summary {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    padding: 8px 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+#container_summary p { margin: 0; }
+#p2 { flex: 1; }
+
+#form_container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+}
+
+.form_group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+}
+
+.form_label { font-weight: bold; font-size: 13px; }
+.form_field { flex: 1; padding: 4px; border: 1px solid #bbb; min-width: 0; }
+
+/* Etape 6 : boutons */
+.btn-add, .btn-del, .btn-consol, .btn-edit, .btn-search {
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn-add    { background: #1fa81f; }
+.btn-del    { background: #e00000; }
+.btn-consol { background: #b8860b; }
+.btn-edit   { background: #0077b6; }
+.btn-search { background: #555; }
+
+#container_btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 10px;
+}
+
+
+#search_container {
+    display: flex;
+    gap: 8px;
+    padding: 0 10px 10px 10px;
+}
+
+.found { background: #fff3b0; }   
